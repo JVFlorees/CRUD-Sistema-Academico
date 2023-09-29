@@ -1,0 +1,222 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: #a2c5c8;
+}
+
+.imagem_fundo{
+	background-color: black;
+    background-image: url("../imagens/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: center top;
+}
+
+.titulo{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 50px;
+	text-decoration: underline;
+	text-align: center;
+	list-style: none;
+	
+}
+
+.container1{
+	display: flex;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 500px;
+	height: 310px;
+	padding: 10px;
+}
+
+.container2{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.menu {
+	width:260px;
+	height:100px;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	margin: 10px;
+}
+
+.bt{
+	width:100px;
+	margin:10px;
+	display: flex;
+	text-decoration: none;
+	color: #000000;
+	background-color: #c0c0c0;
+	border-radius: 8px;
+	padding: 5px 5px 5px 10px;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.1s all ease-in-out;
+}
+
+.container2 .menu .bt:hover{
+	transform: scale(1.1);
+}
+
+.bt2{
+	width:90px;
+	margin:10px;
+	display: flex;
+	text-decoration: none;
+	color: #000000;
+	background-color: #c0c0c0;
+	border-radius: 8px;
+	padding: 5px 5px 5px 15px;
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.1s all ease-in-out;
+}
+
+.container2 .menu .bt2:hover{
+	transform: scale(1.1);
+	
+}
+	
+.titulo2{
+	color: #000040;
+}
+
+/* Fim da pagina INDEX */
+/* Começo da pagina EXCLUIR ALUNO */
+
+.camp_titulo{
+	height:30px;
+	background-color: white;
+}
+
+.titulo2{
+	color: black;
+}
+
+.tabela{
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 250px;
+}
+
+.pag_inicial{
+	background-color: white;
+	height: 40px;
+}
+
+.camp_confirm_exclu{
+	background-color: white;
+	height: 20px;
+}
+
+.bt_exclu{
+	background-color: #a3d1d1;
+	border-radius: 10px;
+	padding: 5px;
+	color: black;
+	margin: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.1s all ease-in-out;
+}
+
+.bt_exclu:hover{
+	transform: scale(1.1);
+}
+
+.bt_retorno{
+	background-color: #a3d1d1;
+	border-radius: 10px;
+	padding: 5px;
+	color: black;
+	margin: 20px;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+/* Fim da Pagina EXCLUIR ALUNO */
+/* Começo da pagina Listar Alunos*/
+
+.camp_result{
+	background-color: white;
+	height:40px;
+	margin: 20px;
+}
+
+.tabela1{
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 200px;
+}
+
+.bt_excluir{
+	background-color: #ff7171;
+	color: black;
+	margin-left: 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.bt_editar{
+	background-color: #ffff6a;
+	color: black;
+	margin-left: 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+/* Fim da Pagina Listar Alunos */
+/* Começo da pagina Atualizar Alunos*/
+
+.bt_atualiza{
+	background-color: #a3d1d1;
+	border-radius: 10px;
+	padding: 5px;
+	color: black;
+	margin: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.1s all ease-in-out;
+}
+
+.bt_atualiza:hover{
+	transform: scale(1.1);
+}
+
+/* Fim da Pagina Atualizar Alunos */
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
